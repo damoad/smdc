@@ -8,6 +8,7 @@ const router = new VueRouter({
 
 
 routes: [
+  {path: '*',  name: 'properties',  component:require('./components/Properties.vue').default},
 {path: '/properties',  name: 'properties',  component:require('./components/Properties.vue').default},
 {path: '/register',  name: 'register',  component:require('./components/Register.vue').default},
 {path: '/login',  name: 'login',  component:require('./components/Login.vue').default},

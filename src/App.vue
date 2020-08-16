@@ -13,14 +13,19 @@
         >
 
 <v-row>
+
   <v-col  cols="5" class="mr-0 ml-0 pr-0 pl-0">
+      <a>
         <v-img
           src="https://smdc.com/content/themes/smdc/dist/images/smdc_logo.png"
           class="my-3"
           contain
           height="50"
           width="200"
+          @click = "$router.push('/properties')"
         />
+
+    </a>
 
 </v-col>
   <v-col  class="">
